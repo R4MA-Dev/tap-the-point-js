@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap the point</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./img/point.ico" type="image/x-icon" />
+</head>
+<body data-aos="fade-up">
+
+    <div id="estadisticas">
+    <div id="cuenta-atras">
+        <h2>Cronometro:</h2> <h2 id="cronometro-h1">0</h2> <input id="cronometro" style="display: none;" type="number" value="0">
+    </div>
+    <div id="resultados">
+        <h2>Puntaje:</h2> <h2 id="contador-h1">0</h2> <input id="contador" style="display: none;" type="number" value="0">
+    </div>
+    </div>
+
+    <div id="container">
+        <nav id="nav">
+            <h1><ins>Dificultad</ins></h1>
+            <button class="btn-dificultad" id="iniciar-facil">Facil</button><br><br><br>
+            <button class="btn-dificultad" id="iniciar-normal">Normal</button><br><br><br>
+            <button class="btn-dificultad" id="iniciar-dificil">Dificil</button>
+        </nav>
+    </div>
+
+    <br>
+    <div id="reglas">
+    <h3>¿Cómo se juega?</h3>
+    <p>Es sencillo, las pelotas apareceran dentro del recuadro negro y debes posicionar el cursor sobre ellas y dar un click para<br>
+    reventarlas.<br> <br>
+    Debes llegar a <span>50</span> antes que se acabe el tiempo, para ganar el juego.<br> <br>
+    El tiempo que duran las pelotas en pantalla como el cronometro, dependera de la dificultad que eligas.<br> <br>
+    <b>NOTA: El sonido puede llegar a fallar en ciertas situaciones</b></p>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

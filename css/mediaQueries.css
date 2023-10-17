@@ -1,0 +1,96 @@
+@media (max-width: 1024px) {
+
+    #container p{
+        font-size: 3.5vw;
+    }
+
+    h1{
+        font-size: 3.5vw;
+    }
+
+    .btn-dificultad{
+        font-size: 3.5vw;
+    }
+
+    .btn-reiniciar{
+        font-size: 3vw;
+        border: none;
+        border-radius: 5px;
+        background-color: blue;
+        color: white;
+        padding: 15px;
+    }
+}
+
+@media(max-width: 425px){
+    body{
+        overflow-x: hidden;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 6vw;
+    }
+
+    .btn-dificultad{
+        font-size: 6vw;
+    }
+
+    #container p{
+        font-size: 7vw;
+    }
+
+    .btn-reiniciar{
+        font-size: 6vw;
+        border: none;
+        border-radius: 5px;
+        background-color: blue;
+        color: white;
+        padding: 15px;
+    }
+
+    #reglas p{
+        font-size: 15px;
+    }
+
+    #estadisticas{
+        position: relative;
+        display: block;
+        justify-content: center !important;
+        gap: 0;
+        right: 0px;
+        width: 100% !important;
+        margin-top: 0px;
+    }
+
+    nav{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    #btn-reiniciar{
+        margin-top: 10px;
+    }
+
+    .bola{
+        margin-left: 5.5%;
+        margin-top: 130px;
+    }
+
+    p#ganaste, p#perdiste{
+        font-size: 25px;
+    }
+    p.texto{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 375px){
+    .bola{
+        margin-left: 2.5%;
+    }
+}

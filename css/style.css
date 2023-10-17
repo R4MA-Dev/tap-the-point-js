@@ -1,0 +1,187 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 13px;              /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: orange;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
+}
+
+
+h1{
+    font-size: 2vw;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.bola{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 2.5%;
+    margin-top: 150px;
+}
+
+#estadisticas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-shadow: 1px 1px 1px black;
+}
+
+#resultados{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 55, 255);
+}
+
+#cuenta-atras{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 255, 0);
+}
+
+#container{
+    width: 95vw;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 5px solid rgb(0, 55, 255);
+    border-radius: 10px;
+}
+
+#container p{
+    font-size: 2vw;
+}
+
+#container:hover{
+    cursor: crosshair;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-dificultad{
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-dificultad:hover{
+    cursor: pointer;
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+#iniciar-facil{
+    background-color: green;
+    color: white;
+    font-family: monospace;
+}
+
+#iniciar-normal{
+    background-color: yellow;
+    color: black;
+    font-family: monospace;
+}
+
+#iniciar-dificil{
+    background-color: red;
+    color: white;
+    font-family: monospace;
+}
+
+
+p#perdiste{
+    font-size: 2.5vw;
+    color: red;
+}
+
+p#ganaste{
+    font-size: 2.5vw;
+    color: green;
+}
+
+p.texto{
+    font-size: 40px;
+    color: white;
+}
+
+.btn-reiniciar{
+    font-size: 2vw;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+
+.btn-reiniciar:hover{
+    cursor: pointer;
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+#reglas{
+    text-align: center;
+}
+
+#reglas p{
+    font-size: 25px;
+}
+
+p span{
+    font-size: 30px !important;
+    color: rgb(14, 226, 14);
+    text-shadow: 1px 1px 1px black;
+}
+
+p b{
+    color: red;
+}
